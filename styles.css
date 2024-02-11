@@ -1,0 +1,92 @@
+/* Your existing CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ae2247;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.daySchedule {
+    width: 30%;
+    margin: 0 10px 20px 10px; /* Adjust spacing between day schedules */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.daySchedule iframe {
+    display: block;
+    margin: 0 auto; /* Center the iframe horizontally */
+}
+
+
+/* Updated CSS for nutrition content */
+.exerciseContent {
+    text-align: center;
+}
+
+.exerciseContent .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exerciseContent img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.exerciseContent p {
+    margin: 0;
+}
+.daySchedule {
+    width: 50%; /* Increase or decrease this value as needed */
+    margin: 0 10px 20px 10px; /* Adjust spacing between day schedules */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px; /* Increase or decrease this value as needed */
+}
